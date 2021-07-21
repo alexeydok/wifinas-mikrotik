@@ -1,0 +1,29 @@
+{
+  "name": "wifinas-mikrotik",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "/usr/local/bin/node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexeydok/wifinas-mikrotik.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexeydok/wifinas-mikrotik/issues"
+  },
+  "homepage": "https://github.com/alexeydok/wifinas-mikrotik#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "fastify": "^3.19.1",
+    "node-ssh": "^12.0.0"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
